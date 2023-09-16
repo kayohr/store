@@ -19,3 +19,8 @@
 	flex: 1 0 calc(25% - 16px); /* Para exibir 4 cartões por linha com espaço entre eles */
 	margin: 8px;
   }
+
+button{
+border-radius: 20%; 
+width: 80%; 
+}
