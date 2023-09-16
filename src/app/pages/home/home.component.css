@@ -1,11 +1,21 @@
-.home_container{
-    width: 90%;
-    margin: auto;
-    padding-top: 50px;
-    display: flex;
+.home__container{
+	width: 90%;
+	margin: auto;
+	padding-top: 250px;
+	display: flex;
 
-    justify-content: space-around;
-    align-items: baseline;
-    flex-wrap: wrap;
-    border: 1px solid blue;
+	justify-content: space-around;
+	align-items: baseline;
+	flex-wrap: wrap;
 }
+
+.card-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+  }
+  
+  .card {
+	flex: 1 0 calc(25% - 16px); /* Para exibir 4 cartões por linha com espaço entre eles */
+	margin: 8px;
+  }
